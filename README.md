@@ -1,33 +1,49 @@
-# Personal Portfolio
+# Photogram
 
-This is my personal portfolio website, crafted to highlight my skills, projects, and creative work as a developer and designer. It serves as an interactive resume and showcases my capabilities through clean design, responsive layouts, and engaging UI elements, including custom animated stickers.
+**Photogram** is a modern photo-sharing web application inspired by Instagram. Users can register, upload photos, follow others, like and comment on posts, and manage their profiles. This project demonstrates full-stack web development with an emphasis on user experience, responsiveness, and interactive features.
 
 ## Demo
 
-Check it out live here: [your-portfolio-link.com](https://your-portfolio-link.com)
+Live demo: [https://your-demo-link.com]
 
 ## Features
 
-- Fully responsive and modern design
-- Animated stickers for visual engagement
-- "About Me" section with a personal touch
-- Interactive project gallery with live previews
-- Contact form and social media integration
-- Downloadable resume
+- User authentication (signup/login/logout)
+- Upload and display images in a social feed
+- Like and comment on posts
+- Follow and unfollow users
+- User profile pages with posts and bio
+- Responsive design for mobile and desktop
 
 ## Technologies Used
 
-- HTML5, CSS3 (or Tailwind CSS / Bootstrap)
-- JavaScript / React / Vue (adjust as needed)
-- Lottie or CSS animations for animated stickers
-- Formspree / EmailJS for contact form functionality
+**Frontend:**
+
+- HTML5, CSS3 (Tailwind CSS or Bootstrap)
+- JavaScript
+- React.js / Vue.js (based on your stack)
+
+**Backend:**
+
+- Node.js with Express / Django / Flask
+- MongoDB / PostgreSQL / Firebase
+- Cloudinary or local file storage for image uploads
+- JWT or session-based authentication
 
 ## Installation
 
-To run the portfolio locally:
+To run locally:
 
-`bash
-git clone https://github.com/your-username/portfolio.git
-cd portfolio
+```bash
+git clone https://github.com/Muthukumrme/photogram.git
+cd photogram
+
+# For backend
+cd backend
+npm install
+npm start
+
+# For frontend
+cd ../frontend
 npm install
 npm start
