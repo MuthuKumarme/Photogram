@@ -5,7 +5,8 @@ include "libs/load.php"
 <html lang="en">
 
 <?php
-//print $_SERVER['DOCUMENT_ROOT']
+//print($_SERVER['DOCUMENT_ROOT']);
+//printf($__site_config);
 ?>
 
 <?php

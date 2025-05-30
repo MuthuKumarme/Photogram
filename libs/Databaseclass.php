@@ -7,11 +7,12 @@ class Databaseconn
 
         if (Databaseconn::$conn==null) {
             
-            $servername = "mysql.selfmade.ninja";
-            $username = "mkmuthu";
+            $servername ="mysql.selfmade.ninja";
+            $username ="mkmuthu";
             $password = "#mk1824suthi";
-            $database = "mkmuthu_photogram";
+            $database = "mkmuthu_photogram"; 
 
+            
             // Create connectionysqli_connect("mysql.selfmade.ninja", "mkmuthu", "", "mkmuthu_photogram");
             
         
